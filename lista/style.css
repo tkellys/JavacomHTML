@@ -1,0 +1,17 @@
+ul li{
+    cursor: pointer;
+    list-style: none;
+    background-color: bisque;
+    font-size: 32px;
+}
+
+
+/* NTH-CHILD = ACESSAR O ENESIMO FILHO - FAZER O EFEITO INTERCALADO DE CORES "ODD" = NOS IMPARES */
+ul li:nth-child(odd){
+    background-color: azure;
+}
+
+ul li.concluido{
+    background-color: green;
+    text-decoration: line-through;
+}
